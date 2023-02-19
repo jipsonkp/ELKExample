@@ -1,6 +1,6 @@
 node {
-	def application = "springbootapp"
-	def dockerhubaccountid = "siraj21"
+	def application = "Pipeline SpringBootApplicationDocker"
+	def dockerhubaccountid = "jipsonkp"
 	stage('Clone repository') {
 		checkout scm
 	}
